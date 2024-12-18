@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FabCart - Your Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="c:\Users\devar\OneDrive\Desktop\download.png" alt="MyStore Logo" class="logo-img">
+           
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section id="cart">
+        <h2>Your Shopping Cart</h2>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="cart-item">
+                            <img src="c:\Users\devar\OneDrive\Desktop\download (1).jpg" alt="Product 1">
+                            <span>Apple IPhone 16 pro max</span>
+                        </div>
+                    </td>
+                    <td>Rs1,50,000.99</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                    </td>
+                    <td>Rs1,50,000.99</td>
+                    <td><button class="remove-item">Remove</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-item">
+                            <img src="c:\Users\devar\OneDrive\Desktop\download.jpg" alt="Product 2">
+                            <span>Apple airpods</span>
+                        </div>
+                    </td>
+                    <td>Rs4900.99</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                    </td>
+                    <td>Rs4900.99</td>
+                    <td><button class="remove-item">Remove</button></td>
+                </tr>
+                <!-- Add more products as needed -->
+            </tbody>
+        </table>
+
+        <div class="cart-summary">
+            <p><strong>Subtotal:</strong> $49.98</p>
+            <p><strong>Shipping:</strong> $5.99</p>
+            <p><strong>Total:</strong> $55.97</p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 FABKART. All Rights Reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
